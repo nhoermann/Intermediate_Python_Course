@@ -6,7 +6,7 @@
 2. Save histogram as pdf file
 
 ## How to install
-Git clone repo
+Git clone repo  
 `conda env create -f createhisto_environment.yml`
 ## How to run
 1. download script & execute with python

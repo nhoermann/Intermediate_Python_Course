@@ -3,6 +3,6 @@ import matplotlib.pyplot as plt
 
 dataset = np.random.randint(1, 101, 20)
 plt.hist(dataset)
-plt.show()
 
+# save as pdf
 plt.savefig('rand_data_hist.pdf')

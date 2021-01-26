@@ -6,8 +6,8 @@
 2. Save histogram as pdf file
 
 ## How to install
-Please install numpy and matplotlib python packages
-`conda create -n createhisto numpy matplotlib`
+Git clone repo
+`conda env create -f createhisto_environment.yml`
 ## How to run
 1. download script & execute with python
 2. run this:

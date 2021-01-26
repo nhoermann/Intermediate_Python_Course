@@ -8,7 +8,6 @@
 ## How to install
 Please install numpy and matplotlib python packages
 `conda create -n createhisto numpy matplotlib`
-
 ## How to run
 1. download script & execute with python
 2. run this:

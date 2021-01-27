@@ -27,4 +27,7 @@ jobs:
           bash ~/miniconda.sh -b
           export PATH=~/miniconda3/bin:$PATH
           conda update --yes conda
-          
+      - name: Envrionment set-up
+        run: | 
+          conda env create -f createhisto_environment.yml
+          conda activate createhisto 

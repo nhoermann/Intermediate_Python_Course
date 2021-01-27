@@ -30,4 +30,8 @@ jobs:
       - name: Envrionment set-up
         run: | 
           conda env create -f createhisto_environment.yml
-          source activate createhisto  
+      - name: run histogram script
+        run: |
+          conda run -n createhisto python main.py
+          
+      

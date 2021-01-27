@@ -12,3 +12,5 @@ Git clone repo
 1. download script & execute with python
 2. run this:
 `python main.py`
+
+## Action test

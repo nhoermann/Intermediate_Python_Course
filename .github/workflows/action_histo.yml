@@ -30,4 +30,4 @@ jobs:
       - name: Envrionment set-up
         run: | 
           conda env create -f createhisto_environment.yml
-          conda activate createhisto 
+          source activate createhisto  
